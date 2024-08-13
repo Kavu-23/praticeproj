@@ -66,8 +66,8 @@ public class EmployeeTest extends BaseClassApi{
 			               .then()
 			               .spec(specRespObj)
 			               .assertThat().statusCode(500)
-			               
 			               .log().all();
+			               //.log().all();
 	}
 
 }
