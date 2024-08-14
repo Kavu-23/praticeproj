@@ -4,8 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ProjectPojoTest {
 	
-	 String projectName;
 	 String createdBy;
+	 String projectName;
 	 int teamSize;
 	 String status;
 	
