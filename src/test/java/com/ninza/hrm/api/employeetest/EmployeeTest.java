@@ -28,7 +28,7 @@ public class EmployeeTest extends BaseClassApi{
 			      .then()
 			        .log().all();
 			    
-			      
+			      System.out.println("hi");
 			      EmployeePojo empObj = new EmployeePojo("Software engineer", "23/11/1995", "abc@gmail.com", userName, 4, "9739891892", projectName, "ROLE_EMPLOYEE", userName);
 			       given()
 			    	      .spec(specReqObj)
